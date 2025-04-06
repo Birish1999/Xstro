@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const environment = {
-  SESSION: process.env.SESSION ?? '',
+  SESSION: process.env.SESSION ?? 'XSTRO_AB95_C226_9F75',
   SESSION_URL: process.env.SESSION_URL ?? '',
   DATABASE_URI: process.env.DATABASE_URI ?? 'database.db',
   HUGGING_FACE_KEY: process.env.HUGGING_FACE_KEY ?? '',
